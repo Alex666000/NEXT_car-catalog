@@ -6,7 +6,7 @@ import {Html, Head, Main, NextScript} from "next/document";
 export default function Document() {
     return (
         <Html lang="en">
-            <Head/>
+            <Head lang={'en'}/>
             <body>
             {/*тут инициализируется main и скрипты*/}
             {/* Main - это app.tsx */}
