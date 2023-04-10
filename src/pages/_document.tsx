@@ -9,6 +9,7 @@ export default function Document() {
             <Head/>
             <body>
             {/*тут инициализируется main и скрипты*/}
+            {/* Main - это app.tsx */}
             <Main/>
             <NextScript/>
             </body>
