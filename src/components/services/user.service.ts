@@ -1,9 +1,9 @@
 import axios from "axios";
 import {IUser} from "@/interfaces/car.interface";
 
-const API_URL = "https://jsonplaceholder.typicode.com";
+// const API_URL = "https://jsonplaceholder.typicode.com";
 
-axios.defaults.baseURL = API_URL;
+axios.defaults.baseURL = process.env.API_URL;
 
 export const UserService = {
     async getAll() {
